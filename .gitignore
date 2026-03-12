@@ -1,0 +1,27 @@
+# OS Generated Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Raw Data (CRITICAL: Do not push Kaggle CSVs or ZIPs to GitHub)
+*.csv
+*.tsv
+*.zip
+*.tar.gz
+*.dat
+*.out
+/data/
+/raw_data/
+
+# Power BI Temp/Lock Files
+*.pbix.lock
+*~*.pbix
+
+# Database Config/Credentials (Best Practice)
+*.env
+database.ini
+secrets.json
