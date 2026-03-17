@@ -7,7 +7,7 @@
 ehthumbs.db
 Thumbs.db
 
-# Raw Data (CRITICAL: Do not push Kaggle CSVs or ZIPs to GitHub)
+# Data Directories & Files (CRITICAL: Do not push massive datasets to GitHub)
 *.csv
 *.tsv
 *.zip
@@ -16,10 +16,12 @@ Thumbs.db
 *.out
 /data/
 /raw_data/
+/processed_data/
 
 # Power BI Temp/Lock Files
 *.pbix.lock
 *~*.pbix
+*.pbix
 
 # Database Config/Credentials (Best Practice)
 *.env
